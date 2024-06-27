@@ -226,7 +226,7 @@ def display():
         total_amount = total_label.cget("text")
         total_amount = total_amount.split(" ")[-1]  # Extract the numeric part of the total
         print(total_amount)
-        upi_id = "vijaydasd2@oksbi"  # Replace with the actual UPI ID
+        upi_id = "shaahidmuhammed052@oksbi"  # Replace with the actual UPI ID
         if total_amount == "0.00":
             messagebox.showinfo("Alert", "Calculate total amount before generating QR code")
         if total_amount == "":
